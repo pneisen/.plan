@@ -25,6 +25,8 @@
         * ctags
         * cmake
         * pandoc
+          * `ln -s /usr/local/texlive/2016/bin/x86_64-darwin/pdflatex /usr/local/bin`
+          * `ln -s /usr/local/texlive/2016/bin/x86_64-darwin/xelatex  /usr/local/bin`
         * Caskroom/cask/mactex
         * cask install font-hack (*Not sure why this is different?*)
         * Caskroom/cask/virtualbox
@@ -48,3 +50,7 @@
       
 ### 2016-12-06
   * Ran into an issue compiling YouCompleteMe on Ubuntu. Cmake could not find the pythonlibs. `sudo apt-get install python-dev` fixed it up.
+
+### 2016-12-12
+  * Chris sent me this gem: [Vimwiki](http://vimwiki.github.io/). Looks pretty neat, I want to play with it and see if I could use it.
+  * [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc) isn't caught up to the 1.18 version of Pandoc on Homebrew. This breaks some things like generating the pdf from within Vim using a command like this: `:Pandoc pdf -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt`
