@@ -54,3 +54,4 @@
 ### 2016-12-12
   * Chris sent me this gem: [Vimwiki](http://vimwiki.github.io/). Looks pretty neat, I want to play with it and see if I could use it.
   * [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc) isn't caught up to the 1.18 version of Pandoc on Homebrew. This breaks some things like generating the pdf from within Vim using a command like this: `:Pandoc pdf -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt`
+  * I also noticed that vim-pandoc remaps your jk keys to work with soft wraps, but it doesn't do line end and line start. I will have to add those myself.
