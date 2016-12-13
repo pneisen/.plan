@@ -64,3 +64,6 @@
     * If changes, commit using the date in the commit message.
     * Push to Github.
     * popd back to the previous directory
+
+### 2016-12-13
+  * Finished up my .plan fish function. The source is here: [.plan.fish](https://github.com/pneisen/dotfiles/blob/master/config/fish/functions/.plan.fish)
