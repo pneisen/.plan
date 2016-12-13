@@ -69,3 +69,4 @@
 
 ### 2016-12-13
   * Finished up my .plan fish function. The source is here: [.plan.fish](https://github.com/pneisen/dotfiles/blob/master/config/fish/functions/.plan.fish)
+  * Fish's caching of settings bit me today. I was changing functions and not seeing the changes. I had to delete the ~/.config/fish/fishd* file to have it refresh the settings. I will look for a better way, but this works for now.
