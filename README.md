@@ -55,3 +55,12 @@
   * Chris sent me this gem: [Vimwiki](http://vimwiki.github.io/). Looks pretty neat, I want to play with it and see if I could use it.
   * [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc) isn't caught up to the 1.18 version of Pandoc on Homebrew. This breaks some things like generating the pdf from within Vim using a command like this: `:Pandoc pdf -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt`
   * I also noticed that vim-pandoc remaps your jk keys to work with soft wraps, but it doesn't do line end and line start. I will have to add those myself.
+  * Worked on a fish shell function for managing my .plan editing. It is going to:
+    * Check to see if the .plan repo has been cloned. If not, clone it in the usual spot
+    * pushd the current directory and move to the .plan directory
+    * Pull down the latest .plan from Github
+    * Open the README.md in vim
+    * Check to see if I made any changes: `git diff --shortstat 2> /dev/null | tail -n1`
+    * If changes, commit using the date in the commit message.
+    * Push to Github.
+    * popd back to the previous directory
