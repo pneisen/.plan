@@ -40,6 +40,8 @@
       * Install Chrome extensions:
         * [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh)
         * [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
+          * Check *Allow access to file URLs*
+          * Associate .md files with Chrome in finder
         * [Sourcegraph](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
       * Download and install [f.lux](https://justgetflux.com/).
       * Migrate documents, files, etc.
