@@ -49,7 +49,7 @@
       * Download and install [SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html).
         * Copy over oracle files from the old mac.
       * Download and install [Mattermost](https://about.mattermost.com/download/#mattermostApps).
-      
+
 ### 2016-12-06
   * Ran into an issue compiling YouCompleteMe on Ubuntu. Cmake could not find the pythonlibs. `sudo apt-get install python-dev` fixed it up.
 
@@ -71,3 +71,4 @@
   * Finished up my .plan fish function. The source is here: [.plan.fish](https://github.com/pneisen/dotfiles/blob/master/config/fish/functions/.plan.fish)
   * Fish's caching of settings bit me today. I was changing functions and not seeing the changes. I had to delete the ~/.config/fish/fishd* file to have it refresh the settings. I will look for a better way, but this works for now.
     * I figured this out. A `source ~/.config/fish/config.fish` will do the trick. I added an abbreviation named *reload* that does this.
+  * I don't know that lib/pq-timeouts is needed now that Go 1.8 supports contexts for sql drivers. I'm going to have to look more into this. #todo
