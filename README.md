@@ -72,3 +72,10 @@
   * Fish's caching of settings bit me today. I was changing functions and not seeing the changes. I had to delete the ~/.config/fish/fishd* file to have it refresh the settings. I will look for a better way, but this works for now.
     * I figured this out. A `source ~/.config/fish/config.fish` will do the trick. I added an abbreviation named *reload* that does this.
   * I don't know that lib/pq-timeouts is needed now that Go 1.8 supports contexts for sql drivers. I'm going to have to look more into this. #todo
+
+### 2016-12-14
+  * Read a few quotes off [Cat-v](http://cat-v.org/) that I loved and were inspiring to me:
+    * "Only the mediocre are always at their best." -- Jean Giraudoux
+    * "Eventually, I decided that thinking was not getting me very far and it was time to try building." -- Rob Pike
+    * "Share your knowledge. It’s a way to achieve immortality." -- Dalai Lama
+
