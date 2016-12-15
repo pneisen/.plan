@@ -83,3 +83,4 @@
 
 ### 2016-12-15
   * Keith sent me this [xkcd comic](http://xkcd.com/1768/). Some good advice there.
+  * Chris and I were both looking for a way to color or underline links in a pandoc generated pdf. I found the urlcolor option for LaTeX. This is how I am generating pdfs now: `pandoc -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt -V urlcolor=cyan -f markdown_github -o test.pdf test.md`
