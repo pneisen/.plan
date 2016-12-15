@@ -80,3 +80,6 @@
     * "Share your knowledge. It’s a way to achieve immortality." -- Dalai Lama
   * The *reload* abbreviation isn't going to work. Forgot that *reload* is an upstart command.
     * Fixed this. Changed it to *fish_reload*.
+
+### 2016-12-15
+  * Keith sent me this [xkcd comic](http://xkcd.com/1768/). Some good advice there.
