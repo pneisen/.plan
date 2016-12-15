@@ -56,7 +56,7 @@
 ### 2016-12-12
   * Chris sent me this gem: [Vimwiki](http://vimwiki.github.io/). Looks pretty neat, I want to play with it and see if I could use it.
   * [vim-pandoc](https://github.com/vim-pandoc/vim-pandoc) isn't caught up to the 1.18 version of Pandoc on Homebrew. This breaks some things like generating the pdf from within Vim using a command like this: `:Pandoc pdf -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt`
-  * I also noticed that vim-pandoc remaps your jk keys to work with soft wraps, but it doesn't do line end and line start. I will have to add those myself.
+  * I also noticed that vim-pandoc remaps your jk keys to work with soft wraps, but it doesn't do line end and line start. I will have to add those myself. #todo
   * Worked on a fish shell function for managing my .plan editing. It is going to:
     * Check to see if the .plan repo has been cloned. If not, clone it in the usual spot
     * pushd the current directory and move to the .plan directory
@@ -84,4 +84,4 @@
 ### 2016-12-15
   * Keith sent me this [xkcd comic](http://xkcd.com/1768/). Some good advice there.
   * Chris and I were both looking for a way to color or underline links in a pandoc generated pdf. I found the urlcolor option for LaTeX. This is how I am generating pdfs now: `pandoc -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt -V urlcolor=cyan -f markdown_github -o test.pdf test.md`
-  * Read a Hacker News comment about Urgency vs Importance. He example was planning things ahead and getting tickets so you don't get caught up in chores, etc. You can lose a random Saturday to your todo list, but if you have tickets to fly to Europe, that is going to take precedence. Makes me think I need to plan some camping and activities now for this summer.
+  * Read a Hacker News comment about **urgency** vs **importance**. Their example was planning things way ahead so you don't get caught up in day to day urgencies. "You can lose a random Saturday to your todo list, but if you have tickets to fly to Europe, that is going to take precedence." Makes me think I need to plan some camping and activities now for this summer. #todo
