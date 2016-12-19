@@ -88,7 +88,7 @@
   * Wow! Gitlab has a [container registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). #look
 
 ### 2016-12-19
-  * My power went out at home for about 4 hours yesterday and it killed the settings on the DSL modem. I had to use my wife's phone to look up the instructions since I have the data turned off on my on the Ting side. I decided to document what I did to fix it in case I need to again:
+  * My power went out at home for about 4 hours yesterday and it killed the settings on the DSL modem. I had to use my wife's phone to look up the instructions since I have the data turned off on my phone at Ting. I decided to document what I did to fix it in case I need it again:
     * Hold the reset button on the modem as you power it up. Not sure if this was needed, but I couldn't get to the configuration before I did it.
     * Plug my laptop in via ethernet and navigate to http://192.168.0.1
     * On the advanced tab, set to "transparent bridge"
