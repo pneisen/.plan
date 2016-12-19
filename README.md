@@ -86,3 +86,10 @@
   * Chris and I were both looking for a way to color or underline links in a pandoc generated pdf. I found the urlcolor option for LaTeX. This is how I am generating pdfs now: `pandoc -V geometry=margin=0.5in -V mainfont=Arial -V fontsize=12pt -V urlcolor=cyan -f markdown_github -o test.pdf test.md`
   * Read a Hacker News comment about **urgency** vs **importance**. Their example was planning things way ahead so you don't get caught up in day to day urgencies. "You can lose a random Saturday to your todo list, but if you have tickets to fly to Europe, that is going to take precedence." Makes me think I need to plan some camping and activities now for this summer. #todo
   * Wow! Gitlab has a [container registry](https://about.gitlab.com/2016/05/23/gitlab-container-registry/). #look
+
+### 2016-12-19
+  * My power went out at home for about 4 hours yesterday and it killed the settings on the DSL modem. I had to use my wife's phone to look up the instructions since I have the data turned off on my on the Ting side. I decided to document what I did to fix it in case I need to again:
+    * Hold the reset button on the modem as you power it up. Not sure if this was needed, but I couldn't get to the configuration before I did it.
+    * Plug my laptop in via ethernet and navigate to http://192.168.0.1
+    * On the advanced tab, set to "transparent bridge"
+    * Turn off wireless on the modem
