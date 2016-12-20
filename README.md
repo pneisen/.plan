@@ -94,3 +94,6 @@
     * On the advanced tab, set to "transparent bridge"
     * Turn off wireless on the modem
   * Hugo just had a [big update](http://bepsays.com/en/2016/12/19/hugo-018/). Seems easier to understand. I need to look into it. #look
+
+### 2016-12-20
+  * Started back on learning Haskell and when I fired up vim I got this error: *ghcmod: ghc-mod is not executable!* I had to do a `stack install ghc-mod` to install ghc-mod via stack.
