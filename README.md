@@ -93,3 +93,4 @@
     * Plug my laptop in via ethernet and navigate to http://192.168.0.1
     * On the advanced tab, set to "transparent bridge"
     * Turn off wireless on the modem
+  * Hugo just had a [big update](http://bepsays.com/en/2016/12/19/hugo-018/). Seems easier to understand. I need to look into it. #look
