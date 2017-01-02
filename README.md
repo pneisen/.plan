@@ -97,3 +97,6 @@
 
 ### 2016-12-20
   * Started back on learning Haskell and when I fired up vim I got this error: *ghcmod: ghc-mod is not executable!* I had to do a `stack install ghc-mod` to install ghc-mod via stack.
+
+### 2017-01-01
+  * Finished reading "The Soul of a New Machine" by Tracy Kidder. Good story but what I found the most interesting was the overall discussion about how knowledge workers are motivated. Two quotes particularly spoke to me: "In The Nature of Gothic, John Ruskin decries the tendency of the industrial age to fragment work into tasks so trivial that they are fit to be performed only by the equivalent of slave labor" and "Among the terms used to describe their malaise are declining technical challenge; misutilization; limited freedom of action; tight control of working patterns. No one who made it through the Eagle project could in fairness have raised such objections. The work was divided but it was not cut to ribbons. Everyone go responsibility for some important part of the machine, many got to choose their piece, and each portion required more than routine labor." Those two thoughts identify the problem I have with agile development. 
