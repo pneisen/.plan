@@ -103,3 +103,7 @@
 
 ### 2017-01-16
   * "My generation certainly had the mind-set that in order to get a "good job," one had to attend college, but what I've learned since is that many of these so-called good jobs are just a sentencing to a sort of cubicle soul-death with a paycheck attached." - Nick Offerman
+
+### 2017-01-26
+  * I was reading an exploration into the go compiler and they mentioned `go tool objdump app` will dump the entire assembly for your app.
+  * `go build -gcflags -m main.go` is interesting too as it will tell you all the optimizations it is making during the build.
