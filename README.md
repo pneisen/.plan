@@ -107,3 +107,6 @@
 ### 2017-01-26
   * I was reading an exploration into the go compiler and they mentioned `go tool objdump app` will dump the entire assembly for your app.
   * `go build -gcflags -m main.go` is interesting too as it will tell you all the optimizations it is making during the build.
+
+### 2017-02-03
+  * "My father never went to college so it was really important I go to college. After college, I called him long distance and said, now what? My dad didn't know." - Chuck Palahniuk
