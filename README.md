@@ -110,3 +110,6 @@
 
 ### 2017-02-03
   * "My father never went to college so it was really important I go to college. After college, I called him long distance and said, now what? My dad didn't know." - Chuck Palahniuk
+
+### 2017-02-15
+  * "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain." - Frank Herbert
