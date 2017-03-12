@@ -114,3 +114,6 @@
 ### 2017-02-15
   * "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me. And when it has gone past I will turn the inner eye to see its path. Where the fear has gone there will be nothing. Only I will remain." - Frank Herbert
   * "The people who can destroy a thing, they control it." - Frank Herbert
+
+### 2017-03-12
+  * Redid the tubeless on the Stumpjumper and rotated the tires.
