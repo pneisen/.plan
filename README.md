@@ -33,6 +33,7 @@
         * Caskroom/cask/vagrant
         * Caskroom/cask/postman
       * Change the default profile on iterm2 to use the font hack at 12pt regular.
+        * I am now trying out [FIRA Code](https://github.com/tonsky/FiraCode) now. This needs to be downloaded, installed, and selected in the profile on iterm2.
       * Cloned my [dotfiles](https://github.com/pneisen/dotfiles) from Github.
         * `cd ~/dotfiles; ./setup.sh`
         * `cd ~/dotfiles/vim/plugged/YouCompleteMe; ./install.py --clang-completer --gocode-completer`
