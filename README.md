@@ -118,3 +118,9 @@
 
 ### 2017-03-12
   * Redid the tubeless on the Stumpjumper and rotated the tires.
+
+### 2017-09-28
+  * I seemed to have forgot a handy way to do search and replace in Vim. After teaching it to myself again I figured I would document it here:
+    * Use / to search for the term I want to search and replace.
+    * gn operates on the currently selected search text, so cgn will change the currently selected search text. Use cgn to change the text if desired.
+    * Use n or N to navigate to the next/previous search term and if you want to change it, use . to make the same change you made before. Continue to use n or N to navigate the terms.
