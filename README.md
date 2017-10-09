@@ -124,3 +124,9 @@
     * Use / to search for the term I want to search and replace.
     * gn operates on the currently selected search text, so cgn will change the currently selected search text. Use cgn to change the text if desired.
     * Use n or N to navigate to the next/previous search term and if you want to change it, use . to make the same change you made before. Continue to use n or N to navigate the terms.
+
+### 2017-10-09
+  * The keywords to create a type in Haskell and their differences:
+    * type - Creates a type synonym or alias. ie: *type Name = String*
+    * newtype - Used to create types with only a single unary data constructor. Less overhead than "data" as it reuses the underlying type. Key difference from an alias is a newtype can have typeclass instances. ie: *newType Cogs = Cogs Int*
+    * data - Creates sum and product types. ie: *data Bool = False | True* ie: *data [] a = [] | a : [a]*
