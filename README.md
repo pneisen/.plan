@@ -130,3 +130,9 @@
     * type - Creates a type synonym or alias. ie: *type Name = String*
     * newtype - Used to create types with only a single unary data constructor. Less overhead than "data" as it reuses the underlying type. Key difference from an alias is a newtype can have typeclass instances. ie: *newType Cogs = Cogs Int*
     * data - Creates sum and product types. Can also create product types using the record syntax. ie: *data Bool = False | True* ie: *data [] a = [] | a : [a]* ie: *data Person = Person { name :: String, age ::Int }*
+
+### 2017-11-17
+  * Notes while watching Ashic Mahtab's talk on Actually Using Haskell:
+    * Take a look at [hpack](https://hackage.haskell.org/package/hpack) for dependency management.
+    * The OverloadedStrings pragma automatically converts string literals into Data.Text strings. 
+    * [Scotty](https://hackage.haskell.org/package/scotty) looks like a simple web framework based on Sinatra.
