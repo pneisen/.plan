@@ -100,7 +100,7 @@
   * Started back on learning Haskell and when I fired up vim I got this error: *ghcmod: ghc-mod is not executable!* I had to do a `stack install ghc-mod` to install ghc-mod via stack.
 
 ### 2017-01-01
-  * Finished reading "The Soul of a New Machine" by Tracy Kidder. Good story but what I found the most interesting was the overall discussion about how knowledge workers are motivated. Two quotes particularly spoke to me: "In The Nature of Gothic, John Ruskin decries the tendency of the industrial age to fragment work into tasks so trivial that they are fit to be performed only by the equivalent of slave labor" and "Among the terms used to describe their malaise are declining technical challenge; misutilization; limited freedom of action; tight control of working patterns. No one who made it through the Eagle project could in fairness have raised such objections. The work was divided but it was not cut to ribbons. Everyone got responsibility for some important part of the machine, many got to choose their piece, and each portion required more than routine labor." Those two thoughts identify the problem I have with agile development. 
+  * Finished reading "The Soul of a New Machine" by Tracy Kidder. Good story but what I found the most interesting was the overall discussion about how knowledge workers are motivated. Two quotes particularly spoke to me: "In The Nature of Gothic, John Ruskin decries the tendency of the industrial age to fragment work into tasks so trivial that they are fit to be performed only by the equivalent of slave labor" and "Among the terms used to describe their malaise are declining technical challenge; misutilization; limited freedom of action; tight control of working patterns. No one who made it through the Eagle project could in fairness have raised such objections. The work was divided but it was not cut to ribbons. Everyone got responsibility for some important part of the machine, many got to choose their piece, and each portion required more than routine labor." Those two thoughts identify the problem I have with agile development.
 
 ### 2017-01-16
   * "My generation certainly had the mind-set that in order to get a "good job," one had to attend college, but what I've learned since is that many of these so-called good jobs are just a sentencing to a sort of cubicle soul-death with a paycheck attached." - Nick Offerman
@@ -134,5 +134,8 @@
 ### 2017-11-17
   * Notes while watching Ashic Mahtab's talk on Actually Using Haskell:
     * Take a look at [hpack](https://hackage.haskell.org/package/hpack) for dependency management.
-    * The OverloadedStrings pragma automatically converts string literals into Data.Text strings. 
+    * The OverloadedStrings pragma automatically converts string literals into Data.Text strings.
     * [Scotty](https://hackage.haskell.org/package/scotty) looks like a simple web framework based on Sinatra.
+
+### 2019-01-08
+  * Great quote on Hacker News that captures the way I feel about objects: "Classes get in the way between the programmer and the problem. They force you to reify your thinking into 'things' (classes) that demand names and citizenship rights, so to speak, in the system. These 'things' don't really exist, but we act like they do, and so increasingly see the problem in terms of the classes we've defined. This is a distorting filter that we can ill afford when the problem is complex." Objects have their place, but what happens in languages like Java doesn't seem right to me.
